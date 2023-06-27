@@ -1,8 +1,8 @@
-from random import randint
+from random import randrange
 
 list = ["Rock", "Paper", "Scissors"]
 
-ai = list[randint(0,2)]
+ai = list[randrange(0,2)]
 
 player = False
 while player == False:
@@ -30,4 +30,4 @@ while player == False:
     print()
 
     player = False
-    ai = list[randint(0,2)]
+    ai = list[randrange(0,2)]
